@@ -5000,6 +5000,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+        allow_undefined_symbols: true,
 	name: "libwvhidl",
 	owner: "xiaomi",
 	strip: {
@@ -5056,6 +5057,7 @@ cc_prebuilt_library_shared {
 	strip: {
 		none: true,
 	},
+	allow_undefined_symbols: true,
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/mediadrm/libwvdrmengine.so"],
@@ -6866,6 +6868,7 @@ cc_prebuilt_library_shared {
 	strip: {
 		none: true,
 	},
+	allow_undefined_symbols: true,
 	target: {
 		android_arm: {
 			srcs: ["proprietary/system_ext/lib/libwfdmmsrc_system.so"],
@@ -7314,6 +7317,7 @@ cc_prebuilt_library_shared {
 	strip: {
 		none: true,
 	},
+	allow_undefined_symbols: true,
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libwfdnative.so"],

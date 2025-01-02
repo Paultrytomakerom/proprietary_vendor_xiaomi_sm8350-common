@@ -7,3 +7,5 @@ LOCAL_PATH := $(call my-dir)
 ifneq ($(filter haydn lisa mars odin redwood renoir star venus,$(TARGET_DEVICE)),)
 
 endif
+
+LOCAL_ALLOW_UNDEFINED_SYMBOLS := true
